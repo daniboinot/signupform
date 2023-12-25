@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" attribute="value" />
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <h1>Sign Up Form</h1>
+    <p>Please fill out the required info</p>
+    <hr />
+    <form id="signup">
+      <div class="form-group">
+        <label id="user">Username(4-8 characters):</label>
+        <input type="text" minlength="4" maxlength="8" id="username" required />
+      </div>
+      <hr />
+      <div class="form-group">
+        <label id="pass">Password:</label>
+        <input id="password" type="password" required />
+      </div>
+      <p></p>
+      <div class="form-group">
+        <label id="conf">Confirm your password:</label>
+        <input id="confirmation" type="password" required />
+      </div>
+      <hr />
+      <p><button>Submit</button></p>
+    </form>
+  </body>
+</html>
